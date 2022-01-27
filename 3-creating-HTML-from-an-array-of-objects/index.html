@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creating HTML from objects</title>
     <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-<div class="pet-container">
-</div>
+  </head>
+  <style>
+    .pet-container div {
+      background: rgb(120, 214, 194);
+      padding: 10px;
+      border-radius: 7px;
+      width: 250px;
+      margin: 10px 0;
+    }
+    .pet-container h4 {
+      font-family: helvetica, arial, sans-serif;
+      font-weight: 900;
+    }
+  </style>
+  <body>
+    <div class="pet-container"></div>
 
-<script src="js/petList.js"></script>
-<!--<script src="data/pets.js"></script>-->
-</body>
+    <script src="js/petList.js"></script>
+    <!--<script src="data/pets.js"></script>-->
+  </body>
 </html>
